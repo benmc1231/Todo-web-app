@@ -1,0 +1,105 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    font-size: large;
+}
+
+
+h1{
+    font-size: 250%;
+    margin:0;
+    top: 2%;
+    width: 100%;
+    position: fixed;     
+    float: center;
+    width: 100%;
+}
+
+h3{
+    color: grey;
+    margin:0;
+    position: fixed;    
+    top: 10%; 
+    width: 100%;
+}
+
+#profilePic {
+    width: 20%;
+    border-radius: 50%;
+    float: right;
+}
+
+.date{
+    margin:0;
+    position: fixed;    
+    top: 15%; 
+    width: 100%;
+}
+
+address{
+    position: fixed;     
+    text-align: center;    
+    bottom: 2%; 
+    width: 100%;
+}
+
+table{
+	border-collapse: collapse;
+    table-layout: fixed;
+    background-color: grey;
+    width: 60%;
+    height: 60%;
+    right: 20%;
+    top: 22%;
+    position: fixed;     
+    float: center;
+}
+
+td{
+    vertical-align: top;
+	padding: 5px;
+    word-wrap: break-word;	
+    text-align: center;
+}
+
+.tableHeader{
+    height: 10%;
+    font-size: large;
+}
+
+.Button{
+    text-align: center;
+    background-color: darkgrey;
+    width: 30%;
+    margin: auto;
+    border-radius: 8px;
+    display:inline-block;
+    padding: 10px;
+}
+
+#new_activity{
+    width: 100%;
+    height: 80%;
+    font-size: large;;
+}
+
+.entryRow{
+    background-color: black;
+    height: 10%;
+}
+
+.Button {
+    transition-duration: 0.4s;
+}
+
+.Button:hover {
+background-color: grey;
+}
+
+.Button:active {
+    background-color: grey;
+    box-shadow: 0 5px #666;
+    transform: translateY(5px)
+}
